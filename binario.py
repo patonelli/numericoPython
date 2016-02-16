@@ -13,7 +13,7 @@ def binario(a):
     ListaDigitos=[]
     while (ParteInteira > 0):
         ListaDigitos.append(ParteInteira%2)
-        ParteInteira=ParteInteira/2
+        ParteInteira=ParteInteira//2
     # lista dos digitos depois da virgula
     ListaResto=[]
     k=1
@@ -38,7 +38,7 @@ def binario(a):
     return p1+"."+p2
     
 
-print binario(21.75)
+print( binario(21.75))
      
     
         
