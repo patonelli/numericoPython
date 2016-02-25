@@ -4,13 +4,13 @@ with open('tabela.txt') as arquivo:
     tabela =[]
     for linha in arquivo:
         tabela.append(linha.strip())
-        
+
 # 2. Construção da tabela como lista de pontos
 tab =[]
 for treco in tabela:
     a = treco.split()
     tab.append([float(a[0]),float(a[1])])
-    
+
 # 3. Construção e resolução do sistema normal
 k= len(tab)
 a11= sum([tab[i][0]**2 for i in range(k)])
