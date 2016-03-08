@@ -1,0 +1,139 @@
+\documentclass[12pt]{article}
+\usepackage{amsfonts, amsmath, amssymb}
+\usepackage[brazil]{babel}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\parindent=0pt
+
+ \addtolength{\textheight}{3.5cm}
+ \addtolength{\oddsidemargin}{-1cm}
+ \addtolength{\evensidemargin}{-1cm}
+ \addtolength{\textwidth}{2cm}
+ \addtolength{\topmargin}{-2.0cm}
+\newcounter{questao}
+\newcommand{\quest}{\stepcounter{questao}{\bf \arabic{questao}.\ }}
+
+\begin{document}
+\hrule
+ {  \sf  Lista de Exercícios- MAP151-1  \hfill \fbox{L1-2016}}
+\hrule
+
+\vspace{0.5cm}
+
+\thispagestyle{empty}
+\fontsize{14}{16}\selectfont
+
+\quest Escreva cada um dos números abaixo, expressos na base decimal, na base
+binária, octal e hexadecimal e na forma normalizada em ponto flutuante, com
+mantissa de três dígitos.
+\begin{itemize}
+\item $3.275$
+\item $2/3$
+\end{itemize}
+
+\vspace{0.3cm}
+
+\quest  Considere $\beta =8$ a base do sistema de números e o conjunto de 
+números de máquina $\mathbb{M} = \{0.d_1\cdots d_8 \times 8^{e}\}$ onde o
+máximo do valor absoluto de $e$ é $[777]_8$. Quantos números tem este conjunto de números de máquina. Qual é o arredondamento de $\pi$ neste conjunto?
+
+\vspace{0.3cm}
+
+\quest Resolva o sistema linear com o método da eliminação de Gauss, usando aritmética de ponto flutuante com mantissa de dois dígitos. 
+\begin{gather*} 0.01 x + 1.7 y + 2.1z  = 15 \\
+   9y - 2.3 z = 2.1 \\
+  3z = 1\end{gather*}
+Compare com a solução real.
+
+\vspace{0.3cm}
+
+\quest .
+Use o método da eliminação de Gauss para encontrar a inversa da matriz $A$ dada abaixo:
+\begin{gather*}
+  A=
+  \begin{pmatrix}
+    2.3 & 0 & -1 & 5.5 \\
+    0 & 4 & -3 & 2.1 \\
+   -1 & 5 & 6.5 & 0 \\
+    2 & 0 & 0 & -1
+  \end{pmatrix}
+\end{gather*}
+
+\vspace{0.3cm}
+
+\quest  Escrever a representação na base $2$ dos seguintes números que
+estão na base $10$
+\begin{gather*}
+  \text{a) } 0.125 \hspace{1cm} 
+\text{ b) } 0.1  \hspace{1cm} 
+\text{ c) } 0.05   \hspace{1cm} 
+\text{ d) } 5.6
+\end{gather*}
+
+\vspace{0.3cm}
+
+\quest Encontrar a equação da parábola $y= ax^2 + bx + c$ que passa pelos pontos
+$(-1,4)$, $(1,8)$, $(-2,23)$.
+
+\vspace{0.3cm}
+
+\quest  Resolver os seguinte sistema usando o método de eliminação de Gauss com pivotação.
+\begin{gather*}
+  4x_1 - x_2 -x_3  = 5\\
+-x_1 +4x_2 -x_4  =  -3 \\
+-x_1 +4x_3 -x_4  = -7 \\
+-x_2 -x_3 +4x_4  =  9 \\
+\end{gather*}
+
+\vspace{0.3cm}
+
+\quest Encontrar a decomposição $LU$ da matriz abaixo:
+\begin{gather*}
+  A=
+  \begin{pmatrix}
+    2 & 1 & 3 & 0 \\
+-2 &-2&-4&5 \\
+5 & 0.5 & 7.5 & 11 \\
+2 & -1 & 3 & 13
+  \end{pmatrix}
+\end{gather*}
+
+
+\vspace{0.3cm}
+
+\quest  Usando o método da eliminação de Gauss, encontre a matriz C que satisfaz a equação:
+\begin{gather*}
+  \begin{pmatrix}
+    2 & 0 & -1 \\
+    1 & 1 & 5 \\
+   -1 & -2 & 10 
+  \end{pmatrix}C =
+  \begin{pmatrix}
+    1 & 0 \\
+6 & 21 \\
+9 & 40
+  \end{pmatrix}
+\end{gather*}
+ 
+
+\vspace{0.3cm}
+
+\quest  Achar a decomposição $LU$ da matriz
+\begin{gather*}
+  A=
+  \begin{pmatrix}
+    7 & 0 & -3 \\
+   -14 & 2 & 8 \\
+    21 & -2 & 16
+  \end{pmatrix}
+\end{gather*}
+
+
+\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 
