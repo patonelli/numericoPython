@@ -1,0 +1,76 @@
+\documentclass[12pt]{article}
+\usepackage{amsfonts, amsmath, amssymb}
+\usepackage[brazil]{babel}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\parindent=0pt
+
+ \addtolength{\textheight}{3.5cm}
+ \addtolength{\oddsidemargin}{-1cm}
+ \addtolength{\evensidemargin}{-1cm}
+ \addtolength{\textwidth}{2cm}
+ \addtolength{\topmargin}{-2.0cm}
+\newcounter{questao}
+\newcommand{\quest}{\stepcounter{questao}{\bf \arabic{questao}.\ }}
+
+\begin{document}
+\hrule
+ {  \sf  Prova - MAP151-1  \hfill \fbox{P1-2016}}
+\hrule
+
+\vspace{0.5cm}
+
+\thispagestyle{empty}
+\fontsize{14}{16}\selectfont
+
+\quest Vamos fixar a base $B=4.$ No primeiro item temos um número escrito na base $B,$ escreva-o na base 10. No segundo item o inverso, temos o número na base $10$, passe-o para a base $B$.
+\begin{itemize}
+\item $1001.1$
+\item $75.5$
+\end{itemize}
+
+\vspace{0.3cm}
+
+\quest Definimos $a=32.56\times 10^{-1}$ e $b=3.85.$ Escreva estes números na forma normal em ponto flutuante. Calcule $a*b$ com dois algarismos significativos e dê o resultado também na forma normal.
+
+\vspace{0.3cm}
+
+\quest Achar a decomposição \textbf{LU} da matriz
+$$ A=
+\begin{pmatrix}
+  3 & -2 & -1 \\ 0 & 5 & 1 \\ 3 & 8 & 4
+\end{pmatrix}$$
+
+\vspace{0.3cm}
+
+\quest Resolver o sistema linear abaixo usando o MEG com pivotação e escrevendo a matriz resultante após cada passo, use a aritmética com dois algarismos significativos.
+\begin{eqnarray}
+  \label{eq:1}
+  0.2x + y +z &=&1.2 \\
+x + 0.33y + z &=& 0 \\
+x + 0.25z &=&0.5
+\end{eqnarray}
+
+
+\vspace{0.3cm}
+
+\quest As matrizes $A$ e $A^{(1)}$ abaixo são as matrizes de coeficientes de sistemas lineares. $A^{(1)}$ é o resultado da aplicação do primeiro passo do método de eliminação de Gauss, com pivotação, na matriz $A$. Quais são as matrizes elementares envolvidas no processo e ache a matriz $P$ tal que $A^{(1)}=PA$.
+\begin{gather*}
+  A=
+  \begin{pmatrix}
+    1&2&0 \\ 2&1&1 \\1&-1&-1
+  \end{pmatrix}\to A^{(1)}=
+  \begin{pmatrix}
+    2&1&1\\ 0 & 1.5 & -0.5 \\ 0&-1.5&-1.5
+  \end{pmatrix}
+\end{gather*}
+
+
+\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 
