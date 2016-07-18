@@ -1,0 +1,72 @@
+\documentclass[12pt]{article}
+\usepackage{amsfonts, amsmath, amssymb}
+\usepackage[brazil]{babel}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\parindent=0pt
+
+ \addtolength{\textheight}{3.5cm}
+ \addtolength{\oddsidemargin}{-1cm}
+ \addtolength{\evensidemargin}{-1cm}
+ \addtolength{\textwidth}{2cm}
+ \addtolength{\topmargin}{-2.0cm}
+\newcounter{questao}
+\newcommand{\quest}{\stepcounter{questao}{\bf \arabic{questao}.\ }}
+
+\begin{document}
+\hrule
+ {  \sf  Lista de Exercícios- MAP151-6  \hfill \fbox{L1-2016}}
+\hrule
+
+\vspace{0.5cm}
+
+\thispagestyle{empty}
+\fontsize{14}{16}\selectfont
+
+\quest Seja $\mathbf{T}=\{ (x_0,y_0), \dots , (x_k,y_k)\}$ uma tabela regular. Mostre que os polinômios de Lagrange desta tabela são linearmente independentes, isto é, $\sum_{i=0}^k a_iL_i(x) = 0$ se, e somente se, $a_i=0$ para todo índice $i$. Se $p(x)$ é um polinômio de grau menor ou igual a $k$, então ele se escreve de uma única forma como combinação linear dos polinômios de Lagrange. Como são as coordenadas?
+
+\vspace{0.3cm}
+
+\quest
+
+\vspace{0.3cm}
+
+\quest
+
+\vspace{0.3cm}
+
+\quest .
+U
+\vspace{0.3cm}
+
+\quest  
+
+\vspace{0.3cm}
+
+\quest 
+
+\vspace{0.3cm}
+
+\quest
+
+\vspace{0.3cm}
+
+\quest
+
+\vspace{0.3cm}
+
+\quest  
+ 
+
+\vspace{0.3cm}
+
+\quest  
+
+\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 
